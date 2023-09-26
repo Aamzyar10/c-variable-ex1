@@ -98,6 +98,7 @@
 int main()
 {
     printf("ramzy\n");
+    printf("hello\n");
 
     return 0;
 }
