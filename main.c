@@ -115,13 +115,13 @@ int main()
 
     int number;
     printf("enter your namber please :  ");
-    scanf("%d\n",&number);
+    scanf("%d",&number);
 
     if(number % 2 == 0)
     {
         printf("your number is even !\n");
     }
-    else if(number % 3 == 0)
+    else if(number % 2  != 0)
     {
         printf("your namber is odd ! \n");
     }
