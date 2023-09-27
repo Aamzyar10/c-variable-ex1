@@ -175,28 +175,15 @@ else{
 
 }*/
 //=================================================================
-// bitwise opration
-/*int main (){
-
+int main (){
     int x = 12 ; // 1100
     int y =7;//0111
 
-    int z = x & y ;//1100
-                   //ftff = 0100 =4
-                   //0111
+    int z = x & y ;
 
-    int a = x | y ;//1100
-                   //tttt = 1111 = 15
-                   //0111
+    int a = x | y ;
 
-    int b = x ^ y ;//1100
-                   //tftt = 1011 = 11
-                   //0111
+    int b = x ^
 
-    printf("%d\n",z);
-    printf("%d\n",a);
-    printf("%d\n",b);
-
-
-}*/
+}
 
