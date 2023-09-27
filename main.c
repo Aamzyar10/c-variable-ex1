@@ -95,7 +95,7 @@
     
 }*/
 //**************************************************************************
-int main()
+/*int main()
 {
    int x = 6; int y = 5 ; int z = 4;
 
@@ -108,4 +108,26 @@ int main()
    printf("%d\n",x);
 
     return 0;
+}*/
+//===========================================================================
+int main()
+{
+
+    int number;
+    printf("enter your namber please :  ");
+    scanf("%d\n",&number);
+
+    if(number % 2 == 0)
+    {
+        printf("your number is even !\n");
+    }
+    else if(number % 3 == 0)
+    {
+        printf("your namber is odd ! \n");
+    }
+    else
+    {
+        printf("Error number !\n");
+    }
+
 }
