@@ -176,7 +176,7 @@ else{
 }*/
 //=================================================================
 // bitwise opration
-int main (){
+/*int main (){
 
     int x = 12 ; // 1100
     int y =7;//0111
@@ -198,5 +198,93 @@ int main (){
     printf("%d\n",b);
 
 
-}
+}*/
 
+// PRINT the max number
+
+/*int main(){
+
+    int x , y, z ;
+
+    scanf("%d",&x);
+    scanf("%d",&y);
+    scanf("%d",&z);
+
+    int max;
+
+    max = x ; //defult;
+
+    if(max<y)
+    {
+        max = y;
+    }
+    if(max<z)
+    {
+        max = z ;
+    }
+    printf("the max number is : %d ", max);
+}*/
+//************************************************************************
+// print the max and min number
+/*int main(){
+
+    int x , y, z ;
+
+    scanf("%d",&x);
+    scanf("%d",&y);
+    scanf("%d",&z);
+
+    int max = x ; //defult;
+    int min = y ;//defult;
+
+    if(a < y)
+    {
+        max = y;
+        min =x;
+    }
+    if(max<z)
+    {
+        max = z ;
+    }
+    if(min > z)
+    {
+        min = z;
+    }
+    printf("the max number is : %d , and the min number is : %d ", max, min);
+
+
+
+}*/
+
+//**************************************************************************
+// sort the three number 
+
+/*int main() {
+    int num1, num2, num3;
+
+    // Input three numbers from the user
+    printf("Enter three numbers: ");
+    scanf("%d %d %d", &num1, &num2, &num3);
+
+    // Sort the numbers using if conditions
+    if (num1 > num2) {
+        int temp = num1;
+        num1 = num2;
+        num2 = temp;
+    }
+    if (num2 > num3) {
+        int temp = num2;
+        num2 = num3;
+        num3 = temp;
+    }
+    if (num1 > num2) {
+        int temp = num1;
+        num1 = num2;
+        num2 = temp;
+    }
+
+    // Display the sorted numbers
+    printf("Sorted numbers: %d %d %d\n", num1, num2, num3);
+
+    return 0;
+}*/
