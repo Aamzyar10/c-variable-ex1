@@ -290,16 +290,69 @@ else{
 }*/
 //make function to sort the number
 
-int main (){
+/*int main (){
 
-     int x , y, z ;
+     int a, b, c, d, f, g;
 
-    scanf("%d",&x);
-    scanf("%d",&y);
-    scanf("%d",&z);
+    scanf("%d %d %d %d %d %d",&a,&b,&c,&d,&f,&g);
 
-}
-int sort (int x,int y,int z){
+    int arr [] = {a,b,c,d,f,g};
 
+    for(int i = 0 ; i < 6; i++)
+    {
+        for (int y = 0; y < 5; y++)
+        {
+            if(arr[y] > arr[y+1])
+            {
+                int temp = arr[y];
+                arr[y] = arr[y+1];
+                arr[y+1] = temp;
+            }
+        }
+       
+        
+    }
+   
     
+      
+    printf("%d, %d , %d , %d , %d ,%d  ", arr[0],arr[1],arr[2] ,arr[3],arr[4],arr[5]); 
+
+}*/
+
+//****************************************************************
+
+//make function to print the second max namber of the array
+
+int main(){
+
+    int size;
+    printf("Enter the size of the array : ");
+    scanf("%d", &size);
+
+    int numbers[size];
+    for (int i = 0; i < size; i++) {
+        printf("Enter the number : ");
+        scanf("%d", &numbers[i]);
+    }
+    printf("The numbers are : ");
+    for (int i = 0; i < size; i++) {
+        printf("%d \n", numbers[i]);
+    }
+
+    int max = numbers[0];
+    int secondMax = numbers[0];
+
+    for (int i = 1; i < size; i++) {
+        if (numbers[i] > max) {
+            secondMax = max;
+            max = numbers[i];
+        } else if (numbers[i] > secondMax && numbers[i] < max) {
+            secondMax = numbers[i];
+        }
+    }
+
+    printf("The second maximum number is: %d\n", secondMax);
+
+
+
 }
