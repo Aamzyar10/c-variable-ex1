@@ -10,7 +10,7 @@ int main(){
     scanf("%d", &n2);
 
     printf("enter the operation :\n");
-    getchar();
+    getchar();//for consume the "enter" char that in the buffer that we get from scanf(n2) after we add the value of n2
     scanf("%c",&op);
 
         switch (op)
